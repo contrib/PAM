@@ -4,11 +4,17 @@
   "description": "Project Automation Manager",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.7.2"
+    "body-parser": "^1.5.2",
+    "express": "^4.7.2",
+    "octonode": "^0.6.3"
+  },
+  "devDependencies": {
+    "dotenv": "^0.4.0"
   }
 }
