@@ -8,7 +8,10 @@ if (env == 'development') {
 var config = {
   github: {
     token: process.env.GITHUB_AUTHORIZATION_TOKEN
-  }
+  },
+  repositories: [
+    'contrib/PAM-test'
+  ]
 };
 
 module.exports = config;
