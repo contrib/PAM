@@ -7,11 +7,17 @@ if (env == 'development') {
 
 var config = {
   github: {
-    token: process.env.GITHUB_AUTHORIZATION_TOKEN
+    token: process.env.GITHUB_AUTHORIZATION_TOKEN,
+    notifications: {
+      repo: 'pam/notifications-testing'
+    },
+    repositories: [
+      'contrib/PAM-test'
+    ]
   },
-  repositories: [
-    'contrib/PAM-test'
-  ]
+  contrib: {
+    dashboard_url: 'http://issues.contrib.io/first-response'
+  }
 };
 
 module.exports = config;
