@@ -13,11 +13,10 @@
     "bluebird": "^2.2.2",
     "body-parser": "^1.5.2",
     "express": "^4.7.2",
+    "github": "^0.2.1",
     "lodash": "^2.4.1",
     "minimist": "^0.2.0",
-    "natural": "^0.1.28",
-    "node-github": "0.0.3",
-    "octonode": "^0.6.3"
+    "natural": "^0.1.28"
   },
   "devDependencies": {
     "dotenv": "^0.4.0"
