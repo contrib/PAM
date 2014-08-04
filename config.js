@@ -12,7 +12,8 @@ var config = {
       repo: 'pam/notifications-testing'
     },
     repositories: [
-      'contrib/PAM-test'
+      'contrib/PAM-test',
+      'videojs/video.js'
     ]
   },
   contrib: {
